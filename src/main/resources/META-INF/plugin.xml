@@ -24,4 +24,9 @@
   <extensions defaultExtensionNs="com.intellij">
 
   </extensions>
+  <actions>
+    <action id="Generate" class="com.impassive.unittestgenerator.action.Generate" text="Generate">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+  </actions>
 </idea-plugin>
